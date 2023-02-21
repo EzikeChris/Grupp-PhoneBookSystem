@@ -1,10 +1,10 @@
-package com.example.demo
+package com.phonebooksystem.phonebooksystem
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class GruppApplicationTests {
+class PhonebooksystemApplicationTests {
 
 	@Test
 	fun contextLoads() {
