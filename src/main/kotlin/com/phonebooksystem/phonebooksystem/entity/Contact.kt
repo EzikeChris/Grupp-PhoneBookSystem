@@ -9,7 +9,7 @@ data class Contact (
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
     val id : Int?,
-    val name : String,
-    val phoneNumber : Number,
-    val address: String
+    var name : String,
+    var phoneNumber : Number,
+    var address: String
 )
