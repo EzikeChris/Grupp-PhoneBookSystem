@@ -1,17 +1,13 @@
 package com.phonebooksystem.phonebooksystem.entity
 
-import javax.persistence.Entity
-import javax.persistence.Table
-import javax.persistence.Id
-import javax.persistence.GeneratedValue
-
+import javax.persistence.*
 
 
 @Entity
 @Table(name = "Contact")
 data class Contact (
     @Id
-    @GeneratedValue(strategy = GeneratedType.AUTO)
+    @GeneratedValue (strategy = GenerationType.AUTO)
     val id : Int?,
     val name : String,
     val phoneNumber : Number,
